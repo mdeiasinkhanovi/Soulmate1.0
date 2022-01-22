@@ -1,0 +1,374 @@
+* a {
+	text-decoration:none;
+}
+
+body {
+	background-color:FFFFFF;
+	font:15px arial;
+}
+
+img{
+	max-height:100px;
+    max-width: 160px;
+	border:solid #333 1px;
+}
+
+hr{
+	border-bottom:1px;
+	color:#E8E8E8;
+}
+
+.title {
+	background-color:#FF0033;
+	color:#FFFFFF;
+	padding:10px;
+	font-size:15px;
+}
+
+.title a{
+	color:#FFFFFF;
+}
+
+.list {
+	width:100%;
+	background-color: #ffffff;
+	color:  #000000;
+	padding: 10px;
+	border-bottom:#E8E8E8 solid 1px;
+	font-size:15px;
+}
+
+.list1 {
+	background-color: #E8E8E8;
+	color:  #000000;
+	border-bottom:#E8E8E8 solid 1px;
+	font-weight:bold;
+}
+
+.post {
+	background-color:#FFFFFF;
+	color:#000000;
+	border-bottom:	#888888  1px solid;
+    padding:10px;
+	
+}
+
+.button{
+	background-color: #333;
+	color:  #ffffff;
+	padding:5px 10px;
+	margin:3px;
+}
+
+.button a{
+	color:  #ffffff;
+}
+
+.button:hover{
+	background-color: #FF0033;
+	color:  #ffffff;
+}
+
+p{
+	margin:3px;
+}
+
+.post a{
+	color:blue;
+}
+
+.left {
+	text-align:left;
+}
+
+.right {
+	text-align:right;
+}
+
+textarea{
+	width:90%;
+	height:10%;
+}
+
+
+/*Login*/
+
+
+#login *{
+	padding:5px 10px 5px 10px;
+	color:#333;
+}
+
+#login a{
+	padding:5px 10px 5px 10px;
+	color:#33ccff;
+}
+
+#login .title{
+	background-color:#FF0033;
+	color:#FFFFFF;
+	padding:10px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#login .error {
+border: 1px solid;
+margin: 10px 0px;
+padding:10px 5px 10px 5px;
+color:#D8000C;
+background-color:#FFBABA;
+}
+
+#login span{
+	color:#FF0000;
+}
+
+#login input[type=text]{
+	height:5%;
+	width:90%;
+	margin:5px;
+	border-radius:5px;
+	border:#FF0033 1px solid;
+}
+
+#login input[type=password]{
+	height:5%;
+	width:90%;
+	margin:5px;
+	border-radius:5px;
+	border:#FF0033 1px solid;
+}
+
+#login select{
+	border:#FF0033 1px solid;
+	padding:5px 3px 5px 3px;
+	border-radius:3px;
+}
+
+#login input[type=submit]{
+	width:90%;
+	background-color:#FF0033;
+	color:#FFFFFF;
+	border:#FF0033 1px solid;
+	padding:5px 3px 5px 3px;
+	border-radius:5px;
+	font-weight:bold;
+	letter-spacing:0.9px;
+}
+
+#login button{
+	width:87%;
+	background-color:#FF0033;
+	color:#FFFFFF;
+	border:#FF0033 1px solid;
+	padding:5px 3px 5px 3px;
+	border-radius:5px;
+	font-weight:bold;
+	letter-spacing:0.9px;
+}
+
+#login input[type=text]:hover{
+	border:#333333 1px solid;
+}
+
+#login input[type=password]:hover{
+	border:#333333 1px solid;
+}
+
+#login select:hover{
+	border:#333333 1px solid;
+}
+
+#login input[type=submit]:hover{
+	background-color:#333333;
+	border:#333333 1px solid;
+}
+
+#login button:hover{
+	background-color:#333333;
+	border:#333333 1px solid;
+}
+	
+
+/*Registration*/
+
+
+#registration *{
+	padding:5px 10px 5px 10px;
+	color:#333;
+}
+
+#registration .title{
+	background-color:#FF0033;
+	color:#FFFFFF;
+	padding:10px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#registration .error {
+border: 1px solid;
+margin: 10px 0px;
+padding:10px 5px 10px 5px;
+color:#D8000C;
+background-color:#FFBABA;
+}
+
+#registration .success {
+border: 1px solid;
+margin: 10px 0px;
+padding:10px 5px 10px 5px;
+color:#4F8A10;
+background-color:#DFF2BF;
+}
+
+#registration span{
+	color:#FF0000;
+}
+
+#registration input[type=text]{
+	height:5%;
+	width:90%;
+	margin:5px;
+	border-radius:5px;
+	border:#FF0033 1px solid;
+}
+
+#registration input[type=password]{
+	height:5%;
+	width:90%;
+	margin:5px;
+	border-radius:5px;
+	border:#FF0033 1px solid;
+}
+
+#registration select{
+	border:#FF0033 1px solid;
+	padding:5px 5px 5px 5px;
+	border-radius:3px;
+	margin:5px 0px 5px 0px;
+}
+
+#registration input[type=radio]{
+	border:#FF0033 1px solid;
+	padding:5px 5px 5px 5px;
+	border-radius:3px;
+	margin:5px 5px 5px 15px;
+}
+
+#registration input[type=submit]{
+	width:90%;
+	background-color:#FF0033;
+	color:#FFFFFF;
+	border:#FF0033 1px solid;
+	padding:5px 3px 5px 3px;
+	border-radius:5px;
+	font-weight:bold;
+	letter-spacing:0.9px;
+}
+
+#registration input[type=file]{
+	width:100%;
+	border:#FF0033 1px solid;
+	padding:5px 3px 5px 3px;
+	margin:25px 0px 10px 0px;
+	border-radius:5px;
+}
+
+#registration button{
+	width:87%;
+	background-color:#FF0033;
+	color:#FFFFFF;
+	border:#FF0033 1px solid;
+	padding:5px 3px 5px 3px;
+	border-radius:5px;
+	font-weight:bold;
+	letter-spacing:0.9px;
+}
+
+#registration input[type=text]:hover{
+	border:#333333 1px solid;
+}
+
+#registration input[type=password]:hover{
+	border:#333333 1px solid;
+}
+
+#registration select:hover{
+	border:#333333 1px solid;
+}
+
+#registration input[type=submit]:hover{
+	background-color:#333333;
+	border:#333333 1px solid;
+}
+
+#registration button:hover{
+	background-color:#333333;
+	border:#333333 1px solid;
+}
+
+/*Footer*/
+
+#footer .footer {
+	background-color:#FF0033;
+	color:#FFFFFF;
+	margin:0px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
+}
+
+
+
+#footer .link a{
+	background-color:#000000;
+	color:#FFFFFF;
+	padding:5px 20px 5px 20px;
+	display:block;
+	font-size:15px;
+}
+
+#footer .link a:hover{
+	background-color:#000000;
+	color:#FF0033;
+}
+
+
+
+input[type=submit]{
+	width:80px;
+	height:50px;
+	background-color:#FF0033;
+	color:#FFFFFF;
+	border:#FF0033 1px solid;
+	padding:5px 3px 5px 3px;
+	border-radius:5px;
+	font-weight:bold;
+	letter-spacing:0.9px;
+}
+
+input[type=submit]:hover{
+	background-color:#FF0066;
+	border:#FF0066 1px solid;
+}
+
+
+.success {
+border: 1px solid;
+margin: 10px 0px;
+padding:10px 5px 10px 5px;
+color:#4F8A10;
+background-color:#DFF2BF;
+}
+
+.error {
+border: 1px solid;
+margin: 10px 0px;
+padding:10px 5px 10px 5px;
+color:#D8000C;
+background-color:#FFBABA;
+}
+
+.img{
+	border:1px solid #333;
+}
